@@ -136,7 +136,7 @@ python scripts/predict.py \
 ## Notes For Paper Reproducibility
 
 - The main YAML uses the paper name `HSSF`. Older experiment YAMLs used `PreDSConv_HyperACE`; that name is kept as a compatibility alias only.
-- `FullPAD_Tunnel` and `DownsampleConv` are implementation-level feature distribution blocks inherited from the YOLOv13-style pipeline. They are documented in [docs/module_mapping.md](docs/module_mapping.md).
+- `FullPAD_Tunnel` and `DownsampleConv` are implementation-level feature distribution blocks inherited from the YOLO pipeline. They are documented in [docs/module_mapping.md](docs/module_mapping.md).
 - The default training scripts do not include private datasets, pretrained checkpoints, or generated experiment folders.
 
 ## License
